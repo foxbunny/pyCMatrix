@@ -37,8 +37,8 @@ I cannot guarantee it won't break something, and I don't take responsibility
 for that.
 
 You may use this script for both commercial and non-commercial purposes. If 
-you _publish_ modified copies of the script, you must point your users to
+you _publish_ modified copies of _this script_, you must point your users to
 the original script (on GitHub), and notify me about it. If you are publishing
 a binary-only version (byte-compiled or otherwise), you must send me the 
-modified source code in plain-text format. Other than that, you can do whatever 
+modified source code in plain-text format. Other than that, you can do whatever
 you want, sell it, copy, use on any number of CPUs, etc, etc.
