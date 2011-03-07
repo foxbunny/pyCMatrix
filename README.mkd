@@ -1,0 +1,20 @@
+# pyCMatrix
+
+Color matrix graphing script for Python.
+
+# What it does
+
+Color matrix is a graph consisting of multiple rectangles (or any other shape)
+arranged into a matrix, and colored according to values in the matrix cells.
+
+The pyCMatrix script uses data from a user-supplied CSV file and outputs a SVG
+file of the color matrix.
+
+# How to use
+
+If you are happy with the defaults, just put a CSV file named ``matrix.csv`` in
+the same directory as the script file, and run the script. When the script is
+finished, you will get a SVG file called ``matrix.svg`` next to your CSV file.
+
+If you want to tweak the colors, edit the ``matrix.ini`` file. All options in
+the configuration file are documented there.
