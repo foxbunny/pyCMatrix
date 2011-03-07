@@ -2,7 +2,7 @@
 
 Color matrix graphing script for Python.
 
-# What it does
+## What it does
 
 Color matrix is a graph consisting of multiple rectangles (or any other shape)
 arranged into a matrix, and colored according to values in the matrix cells.
@@ -10,7 +10,7 @@ arranged into a matrix, and colored according to values in the matrix cells.
 The pyCMatrix script uses data from a user-supplied CSV file and outputs a SVG
 file of the color matrix.
 
-# How to use
+## How to use
 
 If you are happy with the defaults, just put a CSV file named ``matrix.csv`` in
 the same directory as the script file, and run the script. When the script is
@@ -19,7 +19,7 @@ finished, you will get a SVG file called ``matrix.svg`` next to your CSV file.
 If you want to tweak the colors, edit the ``matrix.ini`` file. All options in
 the configuration file are documented there.
 
-# Dependencies
+## Dependencies
 
 pyCMatrix uses [pySVG](http://codeboje.de/pysvg/). You will need it from 
 [Google code repository](http://code.google.com/p/pysvg/downloads/list) and 
@@ -28,3 +28,17 @@ install it before you can use pyCMatrix. This script works with version
 
 Of course, you need Python as well. I've tested the script with version 2.6.6.
 It should work with most version that pySVG works with.
+
+## License
+
+This script is provided as is with no warranties whatsoever, to the extent 
+allowed by relevant laws. In other words, although I believe the script works
+I cannot guarantee it won't break something, and I don't take responsibility
+for that.
+
+You may use this script for both commercial and non-commercial purposes. If 
+you _publish_ modified copies of the script, you must point your users to
+the original script (on GitHub), and notify me about it. If you are publishing
+a binary-only version (byte-compiled or otherwise), you must send me the 
+modified source code in plain-text format. Other than that, you can do whatever 
+you want, sell it, copy, use on any number of CPUs, etc, etc.
